@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'doughnuts/glaze'
   get 'doughnuts/ring'
   get 'doughnuts/custard'
-  get 'bread/banana'
+  get 'bread/banana', to: 'bread#banana'
   get 'bread/olive'
   get 'bread/flat'
   get 'bread/white'
